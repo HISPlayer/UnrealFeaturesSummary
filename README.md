@@ -1,65 +1,47 @@
-## Unity Features Summary
+## Unreal Features Summary
 
-| **Features**                   | **Android**                 | **iOS**                | **WebGL**          | **Windows**                | **MacOS**          |
-|--------------------------------|-----------------------------|------------------------|--------------------|----------------------------|--------------------|
-| Graphics API                   | OpenGLES3                   | Metal                  | WebGL 2.0          | Direct3D11                 | Metal              |
-| DRM                            | :heavy_check_mark: Widevine | :heavy_check_mark:INKA | :x:                | :x:                        | :x:                |
-| Play                           | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Pause                          | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Stop                           | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Seek                           | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Set Volume                     | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| ABR                            | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Resolution/Track Selection     | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :x:                        | :heavy_check_mark: |
-| Audio Track Selection          | :heavy_check_mark:          | :heavy_check_mark:     | :x:                | :x:                        | :heavy_check_mark: |
-| Subtitle                       | :heavy_check_mark:          | :heavy_check_mark:     | :x:                | :heavy_check_mark:         | :heavy_check_mark: |
-| Change Video Content           | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Current Playback Time/Position | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Total Playback Time            | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Playback Speed Control         | :heavy_check_mark:          | :heavy_check_mark:     | :x:                | :heavy_check_mark:         | :heavy_check_mark: |
-| Multistream                    | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :x:                        | :heavy_check_mark: |
-| VR                             | :heavy_check_mark: Oculus   | :x:                    | :x:                | :heavy_check_mark: HoloLens| :x:                |
-| Progressive Download           | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| AES-128                        | :heavy_check_mark:          | :heavy_check_mark:     | :heavy_check_mark: | :heavy_check_mark:         | :heavy_check_mark: |
-| Ad-Insertion                   | :x:                         | :x:                    | :heavy_check_mark: | :x:                        | :x:                |
-
-<br>
-
-| Video Delivery Formats | Android            | iOS                | WebGL              | Windows            | MacOS              |
-|------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| HLS                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| DASH                   | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                |
-| Local Playback         | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: |
+| **Features**                   | **Android**                 | **iOS** | **HTML5**          | **Windows**                |
+|--------------------------------|-----------------------------|---------|--------------------|----------------------------|
+| Graphics API                   | OpenGLES3                   |         | WebGL 2.0          | DirectX11 & DirectX12      |
+| DRM                            | :heavy_check_mark: Widevine |         | :x:                | :x:                        |
+| Play                           | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| Pause                          | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| Stop                           | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| Seek                           | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| Set Volume                     | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| ABR                            | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| Resolution/Track Selection     | :x:                         |         | :x:                | :x:                        |
+| Audio Track Selection          | :x:                         |         | :x:                | :x:                        |
+| Subtitle                       | :x:                         |         | :x:                | :x:                        |
+| Change Video Content           | :x:                         |         | :heavy_check_mark: | :x:                        |
+| Current Playback Time/Position | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| Total Playback Time            | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| Playback Speed Control         | :x:                         |         | :x:                | :heavy_check_mark:         |
+| Multistream                    | :x:                         |         | :heavy_check_mark: | :heavy_check_mark:         |
+| VR                             | :x: Oculus                  |         | :x:                | :x:                        |
+| Progressive Download           | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| AES-128                        | :heavy_check_mark:          |         | :heavy_check_mark: | :heavy_check_mark:         |
+| Ad-Insertion                   | :x:                         |         | :x:                | :x:                        |
 
 <br>
 
-| Local File Formats (Audio&Video) | Android            | iOS                | WebGL | Windows            | MacOS              |
-|----------------------------------|--------------------|--------------------|-------|--------------------|--------------------|
-| MP4                              | :heavy_check_mark: | :heavy_check_mark: | :x:   | :heavy_check_mark: | :heavy_check_mark: |
-| MP3                              | :heavy_check_mark: | :heavy_check_mark: | :x:   |                    | :heavy_check_mark: |
-| WAV                              | :heavy_check_mark: | :heavy_check_mark: | :x:   |                    | :heavy_check_mark: |
-| OGG                              | :heavy_check_mark: | :heavy_check_mark: | :x:   |                    | :heavy_check_mark: |
-| Opus                             |                    |                    | :x:   | :heavy_check_mark: |                    |
+| Video Delivery Formats | Android            | iOS | HTML5             | Windows            | 
+|------------------------|--------------------|-----|--------------------|--------------------|
+| HLS                    | :heavy_check_mark: |     | :heavy_check_mark: | :heavy_check_mark: |
+| DASH                   | :heavy_check_mark: |     | :heavy_check_mark: | :heavy_check_mark: |
+| Local Playback         | :x:                |     | :x:                | :heavy_check_mark: |
 
 <br>
 
-| Video Codecs | Android            | iOS                | WebGL              | Windows              | MacOS              |
-|--------------|--------------------|--------------------|--------------------|----------------------|--------------------|
-| H.264 (AVC)  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:   | :heavy_check_mark: |
-| H.265 (HEVC) | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: * | :heavy_check_mark: |
-| MPEG-4       | :heavy_check_mark: |                    |                    |                      |                    |
+| Video Codecs | Android            | iOS | HTML5              | Windows              |
+|--------------|--------------------|-----|--------------------|----------------------|
+| H.264 (AVC)  | :heavy_check_mark: |     | :heavy_check_mark: | :heavy_check_mark:   |
+| H.265 (HEVC) |                    |     |                    | :heavy_check_mark: * |
 <p>* <a href="https://apps.microsoft.com/store/detail/hevc-video-extensions/9NMZLZ57R3T7">MS HEVC codec extension</a> is required</p>
 <br>
 
-| Audio Codecs | Android            | iOS                | WebGL              | Windows            | MacOS              |
-|--------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| AAC          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| MP3          | :heavy_check_mark: | :heavy_check_mark: |                    |                    | :heavy_check_mark: |
-| ALAC         | :x:                | :heavy_check_mark: | :x:                | :x:                | :heavy_check_mark: |
-
-<br>
-
-| Subtitles Formats | Android            | iOS                | WebGL              | Windows            | MacOS              |
-|-------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| CEA-608           | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: |
-| WebVTT            | :heavy_check_mark: | :heavy_check_mark: | :x:                | :heavy_check_mark: | :heavy_check_mark: |
+| Audio Codecs | Android            | iOS | HTML5              | Windows            |
+|--------------|--------------------|-----|--------------------|--------------------|
+| AAC          | :heavy_check_mark: |     | :heavy_check_mark: | :heavy_check_mark: |
+| MP3          |                    |     |                    |                    |
+| ALAC         | :x:                |     | :x:                | :x:                |
