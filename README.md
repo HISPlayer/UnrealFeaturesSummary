@@ -34,7 +34,7 @@
 | Video Codecs | Windows              | Android            | iOS | HTML5              |
 |--------------|----------------------|--------------------|-----|--------------------|
 | H.264 (AVC)  | :heavy_check_mark:   | :heavy_check_mark: |     | :heavy_check_mark: |
-| H.265 (HEVC) | :heavy_check_mark: * |                    |     |                    |
+| H.265 (HEVC) | :heavy_check_mark: * |                    |     | :heavy_check_mark: |
 <p>* <a href="https://apps.microsoft.com/store/detail/hevc-video-extensions/9NMZLZ57R3T7">MS HEVC codec extension</a> is required</p>
 <br>
 
